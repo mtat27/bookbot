@@ -2,7 +2,7 @@ def main():
     book_path = "books/frankenstein.txt"
     text = read_book(book_path)
     words = count_words(text)
-    print (words)
+    print (f"your file has {words} words in it")
 
 def read_book(book_path):
     with open(book_path) as f:
